@@ -1,0 +1,19 @@
+{
+    "name": "work/app",
+    "authors": [
+        {
+            "name": "UniBen",
+            "email": "u1765774@unimail.hud.ac.uk"
+        }
+    ],
+    "require": {
+        "uniben/example-composer-docker-compose-project": "@dev"
+    },
+    "repositories": [{
+        "type": "path",
+        "url": "/package",
+        "options": {
+            "symlink": true
+        }
+    }]
+}

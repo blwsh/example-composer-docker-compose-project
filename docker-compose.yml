@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: etc/docker/app.dockerfile
+    volumes:
+    - ./app:/src:cached
+    - /src/vendor
+    - .:/package:cached
